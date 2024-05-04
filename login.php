@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="login.css">
+    <title>Sign in and sign up form</title>
+</head>
+<body>
+    <div class="container">
+        <div class="forms-container">
+            <div class="signin-signup">
+                <form action="Sweet.html" class="sign-in-form">
+                    <h2 class="title">Sign in</h2>
+                    <div class="input-field">
+                        <i class="fas fa-user"></i>
+                        <input type="text" placeholder="Username" required>
+                    </div>
+
+                    <div class="input-field">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" placeholder="Password" required>
+                    </div>
+
+                    <input type="submit" value="Login" class="btn solid" href="Sweet.html">
+                    <!-- <button oneclick="redirectToMainPage()"></button> -->
+                    <p class="social-text">Or Sign in with social platforms</p>
+                    
+                    <div class="social-media">
+                        <a href="https://www.facebook.com" class="social-icon">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://twitter.com" class="social-icon">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://www.google.com" class="social-icon">
+                            <i class="fab fa-google"></i>
+                        </a>
+                        <a href="https://www.linkedin.com" class="social-icon">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+
+                </form>
+
+                <form action="#" class="sign-up-form">
+                    <h2 class="title">Sign up</h2>
+                    <div class="input-field">
+                        <i class="fas fa-user"></i>
+                        <input type="text" placeholder="Username" required>
+                    </div>
+
+                    <div class="input-field">
+                        <i class="fas fa-envelope"></i>
+                        <input type="email" placeholder="Email" required>
+                    </div>
+
+                    <div class="input-field">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" placeholder="Password" required>
+                    </div>
+
+                    <input type="submit" value="Sign up" class="btn solid">
+                    <p class="social-text">Or Sign up with social platforms</p>
+                    
+                    <div class="social-media">
+                        <a href="https://www.facebook.com" class="social-icon">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://twitter.com" class="social-icon">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://accounts.google.com/v3/signin/identifier?authuser=0&continue=https%3A%2F%2Fwww.google.com%2F&ec=GAlAmgQ&hl=en&flowName=GlifWebSignIn&flowEntry=AddSession&dsh=S-1006206005%3A1713455083986293&theme=mn&ddm=0" class="social-icon">
+                            <i class="fab fa-google"></i>
+                        </a>
+                        <a href="https://www.linkedin.com" class="social-icon">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+
+                </form>
+
+
+            </div>
+        </div>
+        <div class="panels-container">
+            <div class="panel left-panel">
+                <div class="content">
+                    <h1>New here? At "The Casual Craftsman"!</h1>
+                    <p>Experience Sweet Sensation Like Never Before!</p>
+
+                     <!-- <button class="btn transparent" id="sign-up-btn">Sign Up</button> -->
+                </div>
+                <img src="undraw_birthday_cake_re_bsw5 (1).svg" class="image" alt="">
+            </div>
+
+            <div class="panel right-panel">
+                <div class="content">
+                    <h3>One of us?</h3>
+                    <p>This is the best online sweet shop ever! Go hurry, buy it, and enjoy the peace!</p>
+                    <button class="btn transparent" id="sign-in-btn">Sign In</button>
+                </div>
+                <img src="#" class="image" alt="">
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script> -->
+     <script>
+        const signinForm = document.getElementById('signinForm');
+        const signupForm = document.getElementById('signupForm');
+
+        signinForm.addEventListener('submit', function(event) {
+            event.preventDefault();
+            const username = document.getElementById('signinUsername').value;
+            alert('Welcome, ' + username + '!');
+            // Here you can redirect the user to another page or perform other actions
+        });
+
+        signupForm.addEventListener('submit', function(event) {
+            event.preventDefault();
+            const username = document.getElementById('signupUsername').value;
+            alert('Welcome, ' + username + '! You are signed up.');
+            // Here you can redirect the user to another page or perform other actions
+        });
+    </script>
+
+</body>
+</html> 
+
+
+ 

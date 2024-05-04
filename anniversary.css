@@ -1,0 +1,35 @@
+.anniversary-photos {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    grid-gap: 10px;
+}
+
+.anniversary-photos img {
+    width: 70%;
+    height: 60%;
+    margin: 20px;
+    padding: 20px;
+    transition: transform 0.3s ease;
+}
+
+img{
+    display: block;
+}
+
+.side{
+    margin-left: 100px;
+    /* text-align: center; */
+    font-size: 1.3rem;
+    color: rgb(65, 27, 19);
+    overflow: auto;
+}
+
+.anniversary-photos img:hover {
+    transform: scale(1.05); /* Enlarge image slightly on hover */
+}
+
+.font
+{
+    font-weight: bold;
+}

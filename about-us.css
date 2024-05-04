@@ -1,0 +1,36 @@
+.about-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.company-started {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.company-started img {
+    margin-bottom: 20px;
+}
+
+.people-image {
+    display: flex;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.person {
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.person img {
+    height: 200px;
+    width: auto;
+}
+
+.person p {
+    margin-top: 10px;
+}

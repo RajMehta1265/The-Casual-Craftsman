@@ -1,0 +1,19 @@
+.search-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .results-container {
+    margin-top: 20px;
+  }
+  
+  .item {
+    margin-bottom: 10px;
+  }
+  
+  .item img {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+  }
+  
